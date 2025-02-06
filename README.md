@@ -31,7 +31,7 @@ This is a *fully responsive e-commerce landing page* designed for *Rk Fashion, a
 
 ## 🚀 Live Demo  
 
-🔗 [Click Here](Your Live Link Here)  
+🔗 https://khushalrathod1207.github.io/PRODIGY_WD_01/
 
 ### Prerequisites
 - A modern web browser (e.g., Chrome, Firefox, Edge).
