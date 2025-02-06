@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Universal Reset and Font Styling */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar Styling strat */
+
+header {
+    position: sticky;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+
+nav ul li a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+nav ul li a:hover {
+    color: orangered;
+}
+
+/* navbar Styling End */
+
+
+/* Background-image Styling strat */
+
+
+.image {
+    background: url("assets/bg.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+    width: 100%;
+
+}
+
+.image h1 {
+    font-size: 50px;
+
+}
+
+.image p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.image button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0px;
+}
+
+/* Background-image Styling End */
+
+/*  Men-Women-Tranding  Products section Styling  strat */
+
+.conatiner h2 {
+    text-align: center;
+    margin: 28px 0px;
+    font-size: 30px;
+    word-spacing: 5px;
+    font-weight: 800;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 24px;
+    margin: 80px 20px;
+    /* Added margin for smaller screens */
+}
+
+.product:hover {
+    cursor: pointer;
+}
+
+.product .box1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Added transition for smooth effect */
+}
+
+.product .box1:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product .box1 img {
+    max-width: 100%;
+    height: auto;
+    /* Changed to auto for responsive images */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product .box1 h5 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.product .box1 div {
+    font-size: 16px;
+    margin: 5px 0 15px;
+    color: #666;
+    text-align: center;
+}
+
+/*  Men-Women-Tranding  Products section Styling  End */
+
+/* hamburgar Styling strat */
+
+.hamburger {
+    font-size: 38px;
+    display: none;
+}
+
+@media screen and (max-width: 660px) {
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    ul.ham_active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 67px;
+        left: 0;
+        height: auto;
+        /* Changed to auto for better responsiveness */
+        width: 100%;
+        gap: 24px;
+        background-color: #30363f;
+    }
+}
+
+/* hamburgar Styling End */
+
+
+/* about Section Styling start */
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.about-text {
+    max-width: 600px;
+    display: grid;
+    text-align: center;
+}
+
+.about-text:nth-child(1) {
+    line-height: 40px;
+}
+
+.about-text:nth-child(2) {
+    line-height: 40px;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about-image {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.about-image img {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+    /* Changed to auto for responsive images */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        margin-top: 20px;
+    }
+}
+
+.contact_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about_con {
+    flex: 1;
+    display: grid;
+    gap: 25px;
+    margin-right: 20px;
+}
+
+.about_con h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.about_con p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* about Section Styling End */
+
+
+/* Contact Section Styling start */
+
+
+.contact {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact textarea {
+    height: 100px;
+    resize: none;
+    /* Prevents resizing of the textarea */
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Section Styling End */
+
+
+/* Footer Section Styling start */
+
+
+footer {
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px;
+    /* Added padding for better spacing */
+    background-color: #f8f8f8;
+    /* Added background color for footer */
+}
+
+/* Contact Section Styling End */
