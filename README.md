@@ -30,22 +30,29 @@ This is a *fully responsive e-commerce landing page* designed for *Rk Fashion, a
 
 ##  [Live Demo💥](https://khushalrathod1207.github.io/PRODIGY_WD_01/)
 
-### Prerequisites
+
+## 🚀 Installation
+
+Follow these steps to run the Stopwatch Web App on your local machine:
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/KhushalRathod1207/PRODIGY_WD_01
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd PRODIGY_WD_01
+   ```
+
+5. Open index.html in a browser
+   ```sh
+   open index.html
+   ```
+
+
+## Prerequisites
 - A modern web browser (e.g., Chrome, Firefox, Edge).
 - A text editor (e.g., Visual Studio Code, Sublime Text) if you want to customize the code.
-
-### Installation
-Clone the repository or download the files:
-
-bash
-git clone https://github.com/KhushalRathod1207/PRODIGY_WD_01
-
-
-Navigate to the project directory:
-
-bash
-cd PRODIGY_WD_01
-
 
    
 ## Contributing
