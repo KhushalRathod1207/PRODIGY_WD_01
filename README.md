@@ -22,13 +22,14 @@ This is a *fully responsive e-commerce landing page* designed for *Rk Fashion, a
 ![Screenshot 2025-02-04 211039](https://github.com/user-attachments/assets/a896041a-7d01-4021-a260-a84ac1068127)
 
 
+###  [Live Demo💥](https://khushalrathod1207.github.io/PRODIGY_WD_01/)
+
 ## 📱Technologies Used
 
 - HTML5 for structure ![Static Badge](https://img.shields.io/badge/html5-%23E34F26?style=for-the-badge&logo=html5&logoColor=%23E34F26&labelColor=black)
 - CSS3 for styling and animations  ![Static Badge](https://img.shields.io/badge/css3-%231572B6?style=for-the-badge&logo=css3&logoColor=%231572B6&labelColor=black)
 - JavaScript for game logic and interactivity ![Static Badge](https://img.shields.io/badge/javascript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E&labelColor=black)
 
-##  [Live Demo💥](https://khushalrathod1207.github.io/PRODIGY_WD_01/)
 
 
 ## 🚀 Installation
