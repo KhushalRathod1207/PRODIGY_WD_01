@@ -37,7 +37,7 @@ Follow these steps to run the Stopwatch Web App on your local machine:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/KhushalRathod1207/PRODIGY_WD_01
+   git clone https://github.com/KhushalRathod1207/PRODIGY_WD_01.git
    ```
 2. Navigate to the project directory
    ```sh
