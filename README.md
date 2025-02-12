@@ -45,7 +45,7 @@ Follow these steps to run the Stopwatch Web App on your local machine:
    cd PRODIGY_WD_01
    ```
 
-5. Open index.html in a browser
+3. Open index.html in a browser
    ```sh
    open index.html
    ```
