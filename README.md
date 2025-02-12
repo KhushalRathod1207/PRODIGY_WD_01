@@ -2,7 +2,7 @@
 
 # 🛍 Rk Fashion - Responsive Landing Page  
 
-This is a *fully responsive e-commerce landing page* designed for *Rk Fashion, a modern online fashion store. Built using **HTML, CSS, Bootstrap, and JavaScript*, this website ensures a smooth and stylish user experience.
+This is a fully responsive e-commerce landing page designed for Rk Fashion, a modern online fashion store. Built using HTML, CSS, Bootstrap, and JavaScript, this website ensures a smooth and stylish user experience.
 
 ## 🌟 Features  
 
